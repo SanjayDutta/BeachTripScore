@@ -1,0 +1,16 @@
+<html>
+<head>
+<form>
+<input type="time" id="demo">
+<input type="submit" onclick="get_time(document.getElementById("demo"))">try</button>
+</form>
+<script>
+	
+	function get_time(var x){
+		if(x>"10:00"){x.innerHTML="No"}
+		else{x.innerHTML="yes"}
+	
+	}
+</script>
+</head>
+</html>

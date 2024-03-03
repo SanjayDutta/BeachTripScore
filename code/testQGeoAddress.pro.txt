@@ -1,0 +1,5 @@
+SOURCES = testQGeoAddress.cc
+
+QT += widgets
+QT += positioning
+QT += location
